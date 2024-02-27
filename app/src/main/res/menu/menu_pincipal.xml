@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="ver carrito"
+        android:id="@+id/carrito"
+        android:icon="@drawable/shopping_cart_checkout"
+        app:showAsAction="always">
+        <!-- el atributo app:showAsAction="always" convierte el elemento del menú en un elemento anclado a la barra de tareas -->
+    </item>
+</menu>
